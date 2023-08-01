@@ -1,0 +1,59 @@
+/* Puedes agregar estilos personalizados aquí si lo deseas */
+
+/* Estilos para mostrar errores de validación en los campos del formulario */
+.was-validated input:invalid {
+    border-color: #dc3545;
+}
+
+.was-validated input:valid {
+    border-color: #28a745;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Century Gothic", sans-serif;
+  }
+   
+header, footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 2rem;
+}
+
+.tema {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+    #carouselExampleIndicators {
+      max-width: 1000px; 
+      margin: 0 auto; 
+    }
+
+   
+    .carousel-inner img {
+      height: 600px; 
+      object-fit: cover; 
+    }
+
