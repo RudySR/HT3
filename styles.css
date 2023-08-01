@@ -1,6 +1,4 @@
-/* Puedes agregar estilos personalizados aquí si lo deseas */
 
-/* Estilos para mostrar errores de validación en los campos del formulario */
 .was-validated input:invalid {
     border-color: #dc3545;
 }
